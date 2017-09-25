@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2017-09-23 16:20:08
 * @Last Modified by:   dell
-* @Last Modified time: 2017-09-23 19:36:00
+* @Last Modified time: 2017-09-24 21:39:20
 */
 'use strict';
 
@@ -25,7 +25,7 @@ var nav = {
         });
         //注册点击事件
         $('.js-register').click(function(){
-        	window.location.href = './register.html';
+        	window.location.href = './user-register.html';
         });
         //退出点击事件
         $('.js-logout').click(function(){

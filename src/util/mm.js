@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2017-09-22 20:05:56
 * @Last Modified by:   dell
-* @Last Modified time: 2017-09-23 14:07:44
+* @Last Modified time: 2017-09-24 13:25:20
 */
 
 'use strict';
@@ -82,7 +82,7 @@ var _mm ={
 
 	//统一登录处理
 	doLogin : function(){
-		window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+		window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
 	},
     goHome : function(){
     	window.location.href = './index.html';

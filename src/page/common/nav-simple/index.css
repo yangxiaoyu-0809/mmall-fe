@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2017-09-23 15:43:45
 * @Last Modified by:   dell
-* @Last Modified time: 2017-09-23 16:03:00
+* @Last Modified time: 2017-09-25 10:17:15
 */
 .nav-simple{
 	height: 60px;
@@ -14,4 +14,5 @@
 	font-size: 26px;
 	font-weight: bold;
 	color: #c60023;
+	text-decoration: none;
 }
