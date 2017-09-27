@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2017-09-23 19:56:32
 * @Last Modified by:   dell
-* @Last Modified time: 2017-09-23 20:30:40
+* @Last Modified time: 2017-09-26 09:49:27
 */
 'use strict';
 
@@ -11,6 +11,7 @@ var _mm    = require('util/mm.js');
 //通用页面头部
 var header = {
     init : function(){
+        this.onLoad();
         this.bindEvent();
     },
     onLoad : function(){
