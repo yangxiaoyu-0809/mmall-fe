@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2017-09-27 10:39:33
 * @Last Modified by:   dell
-* @Last Modified time: 2017-09-27 16:48:06
+* @Last Modified time: 2017-09-27 19:33:22
 */
 'use strict';
 
@@ -129,7 +129,7 @@ var page = {
 		$(document).on('click', '.btn-submit', function(){
 			//总价大于0，进行提交
 			if(_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0){
-				window.location.href = './confirm.html';
+				window.location.href = './order-confirm.html';
 			}else{
 				_mm.errorTips('请选择商品后再提交');
 			}
